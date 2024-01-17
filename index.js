@@ -9,7 +9,8 @@ function getUserInput(prompt) {
     
  
     const text = getUserInput('Enter up to three characters for the text: ');
-    const svgContent = createLogoSVG(text);
+    const textColor = getUserInput('Enter text color (keyword or hexadecimal): ');
+    const svgContent = createLogoSVG(text,textColor);
     fs.writeFileSync('logo.svg', svgContent);
     
   }
