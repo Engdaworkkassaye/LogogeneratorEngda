@@ -1,0 +1,11 @@
+{
+  "name": "logogenerator",
+  "version": "1.0.0",
+  "description": "logogenerator",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Engda",
+  "license": "ISC"
+}
