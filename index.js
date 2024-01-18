@@ -1,6 +1,6 @@
 const fs = require('fs');
 const readline = require('readline-sync');
-const { createLogoSVG } = require('./logoGenerator');
+const { createLogoSVG } = require('./lib/logoGenerator.js');
 
 function getUserInput(prompt) {
   return readline.question(prompt);
